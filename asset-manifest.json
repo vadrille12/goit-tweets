@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/tweets/static/css/main.51877bb2.css",
+    "main.js": "/tweets/static/js/main.1b3b4664.js",
+    "static/css/304.d5ac5074.chunk.css": "/tweets/static/css/304.d5ac5074.chunk.css",
+    "static/js/304.12140fe2.chunk.js": "/tweets/static/js/304.12140fe2.chunk.js",
+    "static/css/248.80143675.chunk.css": "/tweets/static/css/248.80143675.chunk.css",
+    "static/js/248.f7ac8b2f.chunk.js": "/tweets/static/js/248.f7ac8b2f.chunk.js",
+    "static/js/533.f72de49b.chunk.js": "/tweets/static/js/533.f72de49b.chunk.js",
+    "static/media/background.jpg": "/tweets/static/media/background.d1f1255327124813f60a.jpg",
+    "static/media/montserrat-all-400-normal.woff": "/tweets/static/media/montserrat-all-400-normal.327fab0afc997a2d9b16.woff",
+    "static/media/picture.png": "/tweets/static/media/picture.032662a2a907475127d7.png",
+    "static/media/montserrat-latin-400-normal.woff2": "/tweets/static/media/montserrat-latin-400-normal.acb6629fe45c43ad5d8b.woff2",
+    "static/media/montserrat-latin-ext-400-normal.woff2": "/tweets/static/media/montserrat-latin-ext-400-normal.0204ec08a4b574088f02.woff2",
+    "static/media/montserrat-cyrillic-ext-400-normal.woff2": "/tweets/static/media/montserrat-cyrillic-ext-400-normal.bbf9e820a2563aac0d8b.woff2",
+    "static/media/montserrat-cyrillic-400-normal.woff2": "/tweets/static/media/montserrat-cyrillic-400-normal.e5c5c19c23e370a342c8.woff2",
+    "static/media/montserrat-vietnamese-400-normal.woff2": "/tweets/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
+    "index.html": "/tweets/index.html",
+    "main.51877bb2.css.map": "/tweets/static/css/main.51877bb2.css.map",
+    "main.1b3b4664.js.map": "/tweets/static/js/main.1b3b4664.js.map",
+    "304.d5ac5074.chunk.css.map": "/tweets/static/css/304.d5ac5074.chunk.css.map",
+    "304.12140fe2.chunk.js.map": "/tweets/static/js/304.12140fe2.chunk.js.map",
+    "248.80143675.chunk.css.map": "/tweets/static/css/248.80143675.chunk.css.map",
+    "248.f7ac8b2f.chunk.js.map": "/tweets/static/js/248.f7ac8b2f.chunk.js.map",
+    "533.f72de49b.chunk.js.map": "/tweets/static/js/533.f72de49b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51877bb2.css",
+    "static/js/main.1b3b4664.js"
+  ]
+}
