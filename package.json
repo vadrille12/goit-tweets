@@ -1,8 +1,8 @@
 {
-  "name": "tweets",
+  "name": "goit-tweets",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vadrille12.github.io/tweets/",
+  "homepage": "https://vadrille12.github.io/goit-tweets/",
   "dependencies": {
     "@fontsource/montserrat": "^4.5.14",
     "@reduxjs/toolkit": "^1.9.5",
