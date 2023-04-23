@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter
-        // basename="/goit-test"
+        basename="/goit-test"
       >
         <App />
       </BrowserRouter>
