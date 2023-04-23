@@ -12,7 +12,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/tweets" element={<Tweets />} />
+          <Route path="tweets" element={<Tweets />} />
           <Route path="*" element={<Navigate to="/" replace={true} />} />
         </Route>
       </Routes>
