@@ -1,0 +1,23 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 20px;
+  padding: 10px 40px;
+
+  color: #000000;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+
+  transition: color 250ms linear;
+}
+
+.link:hover,
+.link:focus {
+  color: #ff8533;
+}

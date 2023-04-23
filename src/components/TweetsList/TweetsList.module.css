@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 30px;
+
+  list-style: none;
+}
+
+.item {
+  transition: transform 250ms ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.01);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 30px auto;
+  padding: 15px 25px;
+
+  background-color: #471ca9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  border: none;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #fff;
+}

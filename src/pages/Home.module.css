@@ -1,0 +1,14 @@
+.salutation {
+  width: 700px;
+  margin: 160px auto 0 ;
+  padding: 90px 60px;
+
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(9px);
+  border-radius: 7px;
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  /* text-align: center; */
+}
