@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="goit-test">
+      <BrowserRouter basename="goit-tweets">
         <App />
       </BrowserRouter>
     </Provider>
