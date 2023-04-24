@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: "Montserrat";
-  background-image: url("./images/background.jpg");
+  font-family: 'Montserrat';
+  background-image: url('./images/background.jpg');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,7 +12,7 @@ main {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -34,4 +34,17 @@ ol {
 
 li {
   list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #202020;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8533;
 }
