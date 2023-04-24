@@ -22,12 +22,14 @@
   margin: 30px auto;
   padding: 15px 25px;
 
+  color: #fff;
   background-color: #471ca9;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
   border-radius: 10px;
   border: none;
 
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -36,5 +38,10 @@
   text-transform: uppercase;
   cursor: pointer;
 
-  color: #fff;
+  transition: all 250ms linear;
+}
+
+.btn:hover {
+  color: #ff8533;
+  background-color: #fff;
 }
