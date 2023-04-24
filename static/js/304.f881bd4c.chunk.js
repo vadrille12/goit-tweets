@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_tweets=self.webpackChunkgoit_tweets||[]).push([[304],{6304:function(e,t,n){n.r(t),n.d(t,{default:function(){return c}});var s="Home_salutation__g0dtQ",a=n(184),c=function(){return(0,a.jsx)("main",{children:(0,a.jsx)("p",{className:s,children:"Welcome to the 'React Tweets' homepage !"})})}}}]);
+//# sourceMappingURL=304.f881bd4c.chunk.js.map
