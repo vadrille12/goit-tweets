@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { CgOptions } from 'react-icons/cg';
 import { filterContacts } from '../../redux/filter/slice';
 
-import styles from './Dropdown.module.css';
+import css from './Dropdown.module.css';
 
 export const Dropdown = () => {
   const [open, setOpen] = useState(false);
@@ -32,9 +32,9 @@ export const Dropdown = () => {
   };
 
   return (
-    <div ref={menuRef} className={styles.dropdown}>
+    <div ref={menuRef} className={css.dropdown}>
       <button
-        className={styles.trigger}
+        className={css.trigger}
         onClick={() => {
           setOpen(open => !open);
         }}
@@ -43,7 +43,7 @@ export const Dropdown = () => {
         <CgOptions />
       </button>
 
-      <div className={open ? styles.active : styles.inactive}>
+      <div className={open ? css.active : css.inactive}>
         <ul>
           <li className="dropdownItem" onClick={() => handleDispatch('all')}>
             <p>Show All</p>

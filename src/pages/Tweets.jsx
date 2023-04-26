@@ -4,6 +4,7 @@ import { fetchUsers } from '../redux/tweets/operations';
 import { TweetsList } from '../components/TweetsList/TweetsList';
 import { GoBackButton } from '../components/GoBackBtn/GoBackBtn';
 import { Dropdown } from 'components/Dropdown/Dropdown';
+import { ToTopBtn } from 'components/ToTopBtn/ToTopBtn';
 
 const Tweets = () => {
   const dispatch = useDispatch();
@@ -18,6 +19,7 @@ const Tweets = () => {
       </div>
 
       <TweetsList />
+      <ToTopBtn />
     </main>
   );
 };
