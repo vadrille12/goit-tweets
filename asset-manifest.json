@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/goit-tweets/static/css/main.9025b8b0.css",
-    "main.js": "/goit-tweets/static/js/main.eb50d322.js",
+    "main.js": "/goit-tweets/static/js/main.d3a8cff3.js",
     "static/css/304.d5ac5074.chunk.css": "/goit-tweets/static/css/304.d5ac5074.chunk.css",
     "static/js/304.f881bd4c.chunk.js": "/goit-tweets/static/js/304.f881bd4c.chunk.js",
-    "static/css/187.8e6c58b5.chunk.css": "/goit-tweets/static/css/187.8e6c58b5.chunk.css",
-    "static/js/187.e10af9b2.chunk.js": "/goit-tweets/static/js/187.e10af9b2.chunk.js",
-    "static/js/68.4846e2ac.chunk.js": "/goit-tweets/static/js/68.4846e2ac.chunk.js",
+    "static/css/659.4ad77788.chunk.css": "/goit-tweets/static/css/659.4ad77788.chunk.css",
+    "static/js/659.0dcb6720.chunk.js": "/goit-tweets/static/js/659.0dcb6720.chunk.js",
+    "static/js/820.339b84c7.chunk.js": "/goit-tweets/static/js/820.339b84c7.chunk.js",
     "static/media/background.jpg": "/goit-tweets/static/media/background.d1f1255327124813f60a.jpg",
     "static/media/montserrat-all-400-normal.woff": "/goit-tweets/static/media/montserrat-all-400-normal.327fab0afc997a2d9b16.woff",
     "static/media/picture.png": "/goit-tweets/static/media/picture.032662a2a907475127d7.png",
@@ -17,15 +17,15 @@
     "static/media/montserrat-vietnamese-400-normal.woff2": "/goit-tweets/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
     "index.html": "/goit-tweets/index.html",
     "main.9025b8b0.css.map": "/goit-tweets/static/css/main.9025b8b0.css.map",
-    "main.eb50d322.js.map": "/goit-tweets/static/js/main.eb50d322.js.map",
+    "main.d3a8cff3.js.map": "/goit-tweets/static/js/main.d3a8cff3.js.map",
     "304.d5ac5074.chunk.css.map": "/goit-tweets/static/css/304.d5ac5074.chunk.css.map",
     "304.f881bd4c.chunk.js.map": "/goit-tweets/static/js/304.f881bd4c.chunk.js.map",
-    "187.8e6c58b5.chunk.css.map": "/goit-tweets/static/css/187.8e6c58b5.chunk.css.map",
-    "187.e10af9b2.chunk.js.map": "/goit-tweets/static/js/187.e10af9b2.chunk.js.map",
-    "68.4846e2ac.chunk.js.map": "/goit-tweets/static/js/68.4846e2ac.chunk.js.map"
+    "659.4ad77788.chunk.css.map": "/goit-tweets/static/css/659.4ad77788.chunk.css.map",
+    "659.0dcb6720.chunk.js.map": "/goit-tweets/static/js/659.0dcb6720.chunk.js.map",
+    "820.339b84c7.chunk.js.map": "/goit-tweets/static/js/820.339b84c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9025b8b0.css",
-    "static/js/main.eb50d322.js"
+    "static/js/main.d3a8cff3.js"
   ]
 }
