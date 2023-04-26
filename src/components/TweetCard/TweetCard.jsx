@@ -1,6 +1,9 @@
-import { useDispatch } from "react-redux";
-import { followUser } from "../../redux/tweets/operations";
-import css from "./TweetCard.module.css";
+import { useDispatch, useSelector } from 'react-redux';
+
+import { selectIsLoading } from 'redux/tweets/selectors';
+import { followUser } from 'redux/tweets/operations';
+
+import css from './TweetCard.module.css';
 export const TweetCard = ({
   id,
   user,
@@ -10,6 +13,7 @@ export const TweetCard = ({
   isFollowing,
 }) => {
   const dispatch = useDispatch();
+  const isLoading = useSelector(selectIsLoading);
 
   const handleFollow = () => {
     dispatch(
@@ -23,12 +27,14 @@ export const TweetCard = ({
 
   return (
     <div className={css.wrapper}>
-      <img className={css.image} src={avatar} alt={user} />
+      <div className={css.imageWrapper}>
+        <img className={css.image} src={avatar} alt={user} />
+      </div>
 
       <div className={css.info}>
-        <p className={css.stats}>{tweets.toLocaleString("en-US")} Tweets</p>
+        <p className={css.stats}>{tweets.toLocaleString('en-US')} Tweets</p>
         <p className={css.stats}>
-          {followers.toLocaleString("en-US")} Followers
+          {followers.toLocaleString('en-US')} Followers
         </p>
       </div>
 
@@ -36,8 +42,9 @@ export const TweetCard = ({
         className={isFollowing ? css.active : css.btn}
         type="button"
         onClick={handleFollow}
+        disabled={isLoading}
       >
-        {isFollowing ? "Following" : "Follow"}
+        {isFollowing ? 'Following' : 'Follow'}
       </button>
     </div>
   );
